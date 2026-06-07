@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pardon_sir"
+version = "1.0.0"
+description = "Convert custom £ YAML comments into standard # comments"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+pardon_sir = "pardon_sir.pardon_sir:main"
