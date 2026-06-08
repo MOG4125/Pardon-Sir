@@ -1,6 +1,6 @@
 # pardon_sir
 
-[![PyPI version](https://shields.io)](https://pypi.org)
+[![PyPI version](https://shields.io)](https://pypi.org/pardon_sir)
 [![Python versions](https://shields.io)](https://pypi.org)
 [![License: MIT](https://shields.io)](https://opensource.org)
 
